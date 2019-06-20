@@ -1,8 +1,43 @@
 /*Variables*/
 :root {
-    --primary: rgb(9, 141, 16);
+    --green: rgb(9, 141, 16);
     --lightgreen: rgb(30, 255, 0);
-    --dark: rgb(0, 0, 0);
-    --light: rgb(255, 255, 255);
+    --grey: rgba(133, 128, 128, 0.418);
+    --hover: rgb(133, 128, 128);
 }
 
+nav {
+    padding: 0;
+    background-color: var(--grey);
+    color: white;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav li, nav a {
+    display: inline-block
+}
+
+.btn:hover {
+    background-color: var(--hover);
+}
+
+body {
+    margin-top: 60px
+}
+
+.textbox-1 {
+    background-color: var(--green);
+
+}
+
+.textbox-2 {
+    background-color: var(--lightgreen)
+}
+
+footer {
+    background-color: var(--green);
+}
